@@ -19,7 +19,7 @@ class CaseStatus(str, enum.Enum):
 class Case(Base):
     __tablename__ = "cases"
     id = Column(Integer, primary_key=True, index=True)
-    Full_name = Column(String, nullable=False)
+    full_name = Column(String, nullable=False)
     email = Column(String, nullable=False)
     country = Column(String, nullable=False)
     id_type = Column(String, nullable=False)

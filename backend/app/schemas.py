@@ -4,7 +4,7 @@ from datetime import datetime
 from app.models import RiskLevel, CaseStatus 
 
 class CaseCreate(BaseModel):
-    Full_name: str
+    full_name: str
     email: str
     country: str
     id_type: str
